@@ -39,7 +39,24 @@ hideLink.addEventListener('click', (event) => {
 
 
 EXO 3 
-Faire CSS , modif HTML 
+const greenButton = document.querySelector("#buttongreen");
+const redButton = document.querySelector("#buttonred");
+const blueButton = document.querySelector("#buttonblue");
+const textDiv = document.querySelector("#text");
+
+// Fonction pour changer la couleur en fonction du bouton cliqué
+function handleClickChangeText(color) {
+  // Supprimer toutes les classes de couleur existantes
+  textDiv.classList.remove("green", "red", "blue");
+  // Ajouter la nouvelle classe de couleur
+  textDiv.classList.add(color);
+}
+
+// Ajout des gestionnaires d'événements pour chaque bouton
+greenButton.addEventListener("click", () => handleClickChangeText("green"));
+redButton.addEventListener("click", () => handleClickChangeText("red"));
+blueButton.addEventListener("click", () => handleClickChangeText("blue"));
+
 
 EXO 4
 // Sélectionner les éléments du formulaire

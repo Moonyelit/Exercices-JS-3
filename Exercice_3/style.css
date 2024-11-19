@@ -9,7 +9,21 @@
 }
 .red{
     background-color: red;
+    color: red;
 }
 .blue{
     background-color: blue;
+    color:blue;
+}
+
+.textgreen {
+  color: green;
+}
+
+.textred {
+  color: red;
+}
+
+.textblue {
+  color: blue;
 }
