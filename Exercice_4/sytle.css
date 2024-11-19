@@ -1,0 +1,12 @@
+.correct{
+    border-color: green ;
+}
+
+.wrong{
+    border-color: red;
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
